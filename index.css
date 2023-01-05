@@ -3,13 +3,14 @@
 }
 
 table {
-    border: 1px solid black;
+    border: 2px solid black;
     border-collapse: collapse;
     margin: auto;
+    width: 80vw;
 }
 
-th , td {
-    border: 1px solid black;
+th , td, tr {
+    border: 2px solid black;
     padding: .5rem 1rem;
 }
 
@@ -26,4 +27,10 @@ form {
 
 .heading{
     margin: 3rem;
+}
+
+.btn-info , .btn-primary ,.btn-success, .btn-danger{
+    width: 100%;
+    margin: .5rem 0rem  0rem 0rem !important;
+
 }
