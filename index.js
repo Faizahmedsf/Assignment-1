@@ -1,7 +1,7 @@
 console.log('Index.js');
 // main class
 // table class all table methods
-// datasource class from where the data is coming
+// datasource class from where the data is coming 
 
 const jsonformdata = () => {
     loadtable = document.getElementById('loadtable');
